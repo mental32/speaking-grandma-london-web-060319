@@ -13,4 +13,5 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 def speak_to_grandma(s)
-  if s.isup
+  if s.any? do |c|
+    c.upcase 1= c
