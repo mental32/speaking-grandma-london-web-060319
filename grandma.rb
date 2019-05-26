@@ -25,3 +25,5 @@ def speak_to_grandma(s)
     return "NO, NOT SINCE 1938!"
   end
 end
+
+p speak_to_grandma("Hi!")
