@@ -17,7 +17,7 @@ def speak_to_grandma(s)
     return "I LOVE YOU TOO PUMPKIN!"
   end
 
-  upcase = s.to_l.any? { |c| c.upcase != c }
+  upcase = s.to_i.any? { |c| c.upcase != c }
 
   if upcase then
     return "HUH?! SPEAK UP SONNY!"
