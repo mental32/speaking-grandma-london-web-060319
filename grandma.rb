@@ -11,3 +11,17 @@
 
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
+
+def speak_to_grandma(s)
+  if s == 'I LOVE YOU GRANDMA!' then
+    return 'I LOVE YOU TOO PUMPKIN!'
+  end
+
+  upcase = s.chars.any? { |c| c.upcase != c }
+
+  if upcase then
+    return 'HUH?! SPEAK UP, SONNY!'
+  else
+    return 'NO, NOT SINCE 1938!'
+  end
+end
