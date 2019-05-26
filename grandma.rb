@@ -20,8 +20,8 @@ def speak_to_grandma(s)
   upcase = s.any? { |c| c.upcase != c }
 
   if upcase then
-    "HUH?! SPEAK UP SONNY!"
+    return "HUH?! SPEAK UP SONNY!"
   else
-    "NO, NOT SINCE 1938!"
+    return "NO, NOT SINCE 1938!"
   end
 end
