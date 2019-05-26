@@ -13,5 +13,17 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 def speak_to_grandma(s)
-  if s.any? do |c|
-    c.upcase 1= c
+  if s == "I LOVE YOU GRANDMA" then
+    return "I LOVE YOU TOO PUMPKIN!"
+  end
+
+  is_upcase? = s.any? do |c|
+    c.upcase != c
+  end
+
+  if is_upcase? then
+    "HUH?! SPEAK UP SONNY!"
+  else
+    "NO, NOT SINCE 1938!"
+  end
+end
